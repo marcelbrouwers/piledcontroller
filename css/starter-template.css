@@ -1,0 +1,44 @@
+body {
+  padding-top: 50px;
+}
+.sliders {
+  padding: 40px 15px;
+  text-align: center;
+  min-width: 300px;
+}
+
+/* Sliders CSS */
+#RGB {
+	height: 20px;
+	background: rgb(128, 128, 128);
+	border-radius: 15px;
+}
+#RC .slider-selection {
+	background: #FF8282;
+}
+#RC .slider-handle {
+	background: red;
+}
+#GC .slider-selection {
+	background: #428041;
+}
+#GC .slider-handle {
+	background: green;
+}
+#BC .slider-selection {
+	background: #8283FF;
+}
+#BC .slider-handle {
+	border-bottom-color: blue;
+}
+#R, #G, #B {
+	width: 300px;
+}
+
+#about {
+	padding: 40px 15px;
+	min-width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	
+}
